@@ -1,0 +1,22 @@
+{
+  "name": "pwdsa",
+  "version": "1.0.0",
+  "description": "Learning bootstarap\u001b[D\u001b[D\u001b[\u001b[3~\u001b[C\u001b[C\u001b[rap v5, js, others by creating a website for pwdsa-ubids.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "learning-bootstrap",
+    "web-development",
+    "pwdsa",
+    "ubids"
+  ],
+  "author": "Osman Abdul-Basit",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

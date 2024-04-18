@@ -1,0 +1,123 @@
+.header {
+    position: relative;
+}
+
+.navbar {
+    position: unset !important;
+    padding: 0 0 !important;
+}
+
+.brand {
+    width: 50px;
+    max-width: 60px;
+}
+
+.brand-text {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.navbar-brand,
+.d-flex {
+    align-items: center !important;
+    gap: 0.3em !important;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-menu-container {
+    position: absolute;
+    top: 4em;
+    left: 0;
+    background-color: #684141;
+    padding-inline-start: 1em;
+    padding-block-end: 1em;
+}
+
+.nav-item>.nav-link {
+    color: inherit !important;
+}
+
+.active {
+    color: rgb(210, 83, 236) !important;
+    font-weight: 600 !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    position: absolute !important;
+    right: 2% !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
+    outline: none !important;
+    border: none !important;
+}
+
+.donate {
+    position: absolute;
+    right: calc(15% - 5%)
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-brand .brand-text {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .navbar,
+    .navbar-menu-container {
+        position: relative;
+        top: auto;
+        min-width: unset;
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 0 !important;
+    }
+
+    .navbar-menu-container {
+        background-color: unset;
+        color: #684141 !important;
+    }
+
+    .navbar-menu {
+        margin-inline-end: 20%;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-menu {
+        margin-inline-end: calc(100% / 10em);
+    }
+
+    .donate {
+        right: 5%;
+    }
+}
+
+.main__content {
+    background-color: rgb(103, 184, 157);
+    min-height: 500px;
+}
+
+.footer {
+    background-color: rgb(43, 43, 85);
+}
