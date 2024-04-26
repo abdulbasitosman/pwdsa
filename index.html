@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PWDSA-UBIDS</title>
+  <title>PWDSA-UBIDS | Home</title>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- fav icon -->
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
@@ -17,16 +17,22 @@
 
 <body>
   <header class="container-fluid header">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex" href="#">
-          <img src="./assets/images/logo_pwdsa.png" class="brand" alt="pwdsa logo" />
-          <h2 class="brand-text">PWDSA-UBIDS</h2>
-        </a>
-        <!-- ./navbar-brand -->
 
-        <div class="navbar-menu-container collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav navbar-menu">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo_pwdsa.png" alt="Logo of pwdsa" class="navbar-brand" width="35">
+        </a>
+        <!-- ./navabar-brand -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- ./navbar-toggler -->
+
+        <div class="collapse navbar-collapse navbar-menu-container" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2 px-md-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -39,33 +45,30 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
+            <!-- FIXME: positon well on header -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support Us</a>
+            </li>
           </ul>
-          <!-- ./navbar-menu -->
-        </div>
-        <!-- ./navbar-menu-container -->
+          <!-- ./navbar-nav -->
 
-        <div class="donate d-flex">
-          <a href="#" class="btn donate-link btn-primary py-1"> Donate </a>
         </div>
-        <!-- ./donate -->
-
-        <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
       </div>
-      <!-- ./container--fluid -->
+      <!-- ./contianer-fluid -->
+
     </nav>
+    <!-- ./navbar -->
+
   </header>
   <!-- /header -->
   <main class="main__content container-fluid">
-    <div class="row">
-      <section class="col-sm col-md-2 hero-section">
-        <div class="">
-          <div class="col-1">1</div>
-          <div class="col-1">1</div>
-        </div>
+    <div class="row hero-section">
+      <section class="col-sm col-md-6 bg-black text-light hero-left">
+        <h2>Hero-left</h2>
+      </section>
+
+      <section class="col-sm col-md-6">
+        Section-1
       </section>
     </div>
   </main>
